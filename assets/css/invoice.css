@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    background-color: #2c1b18;
+    background-image: linear-gradient(rgba(44,27,24,0.85),rgba(44,27,24,0.85)),url('https://www.transparenttextures.com/patterns/pinstripe.png');
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.invoice-card {
+    background: #fdfaf5;
+    width: 100%;
+    max-width: 650px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 15px 60px rgba(0,0,0,0.6);
+    border-top: 8px solid #4e342e; /* Royal Brown Border */
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    color: #4e342e;
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header p {
+    color: #c6a664; /* Gold color */
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border-bottom: 1px dashed #dcdcdc;
+    font-size: 14px;
+}
+
+.info-section strong {
+    color: #4e342e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: #f4ece2;
+    color: #4e342e;
+    border-bottom: 2px solid #c6a664;
+}
+
+td {
+    padding: 15px 12px;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+.total-row {
+    background-color: #4e342e;
+    color: fff9f1;
+}
+
+.total-row td {
+    padding: 15px;
+    border: none;
+    color: #fff !important;
+}
+
+.footer {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.btn-box {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.print-btn {
+    background: #4e342e;
+    color: #fff;
+}
+
+.print-btn:hover {
+    background: #c6a664;
+}
+
+.back-btn {
+    background: #eee;
+    color: #333;
+}
+
+/* Print ke waqt buttons chipane ke liye */
+@media print {
+    .btn-box { display: none; }
+    body { background: #fff; padding: 0; }
+    .invoice-card { box-shadow: none; border: 1px solid #eee; }
+}
+
+.brand-logo{
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.1));
+}
+
+.brand-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-name{
+    color:#4e342e;
+    font-family: 'Playfair Display',sans-serif;
+    letter-spacing: 2px;
+}
+
+.tagline{
+    color:#8b5a2b;
+    font-style: italic;
+}
+
