@@ -11,7 +11,7 @@ This was our **BCA Final Year Project**.
 
 | Login | Cart (mobile view) |
 |:-----:|:------------------:|
-| <img src="assets/images/login.png" width="420"> | <img src="assets/images/cart.png" width="200"> |
+| <img src="assets/images/login.PNG" width="420"> | <img src="assets/images/cart.png" width="200"> |
 
 | Chatbot | Invoice / Bill |
 |:-------:|:--------------:|
