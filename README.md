@@ -11,11 +11,11 @@ This was our **BCA Final Year Project**.
 
 | Login | Cart (mobile view) |
 |:-----:|:------------------:|
-| <img src="assets/images/screenshot-login.png" width="420"> | <img src="assets/images/screenshot-cart.png" width="200"> |
+| <img src="assets/images/login.png" width="420"> | <img src="assets/images/cart.png" width="200"> |
 
 | Chatbot | Invoice / Bill |
 |:-------:|:--------------:|
-| <img src="assets/images/screenshot-chatbot.png" width="200"> | <img src="assets/images/screenshot-invoice.png" width="320"> |
+| <img src="assets/images/chatbot.png" width="200"> | <img src="assets/images/invoice.png" width="320"> |
 
 ---
 
