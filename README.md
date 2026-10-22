@@ -3,7 +3,7 @@
 A dynamic coffee shop website with user login, shopping cart, order invoice and a chatbot, built with **PHP, MySQL, JavaScript and CSS**.
 This was our **BCA Final Year Project**.
 
-![Home Page](assets/images/screenshot-home.png)
+![Home Page](assets/images/home.png)
 
 ---
 
